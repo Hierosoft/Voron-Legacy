@@ -14,5 +14,6 @@ The official release of the Voron Legacy 3d printer. You can find the BOM and an
   (WIP)
 
 ## Contributors
-- [deleted user] [2022-08-09](https://discord.com/channels/460117602945990666/791364306276450337/1006420060069441627) as cited on [Brief assembly guide](https://forum.vorondesign.com/threads/brief-assembly-guide.176/)
-  - ab_drive_assembly_alignment_jig_x4.stl (originally named legacy_tool.stl)
+- "jig for aligning the Y axis rods with the frame" [by deleted user] [2022-08-09](https://discord.com/channels/460117602945990666/791364306276450337/1006420060069441627)
+  - print 4 as cited on [Brief assembly guide](https://forum.vorondesign.com/threads/brief-assembly-guide.176/)
+  - y_axis_rod_alignment_jig_x4.stl (originally named legacy_tool.stl)
