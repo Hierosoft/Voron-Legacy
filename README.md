@@ -6,6 +6,10 @@ The official release of the Voron Legacy 3d printer. You can find the BOM and an
 
 ![Voron Logo](https://vorondesign.com/images/voron_design_logo.png)
 
+## Sourcing Guide
+- See "VORON 1.6.2" at [sourcing guides](https://vorondesign.com/sourcing_guide?model=VL) page (1.6.2 is same as Legacy according to nemgrea)
+
+
 ## Assembly
 - Voron Legacy [Brief assembly Guide](https://forum.vorondesign.com/threads/brief-assembly-guide.176/) by Sanity Agathion, a Voron forum admininstrator.
 - Unofficial assembly video series: [Voron Legacy](https://www.youtube.com/playlist?list=PLm2OH_myqt7a_PT0lViufZZBrC22PzAQH) by [Fugatech 3D Printing](https://www.youtube.com/@Fugatech3DPrinting) on YouTube
@@ -13,10 +17,24 @@ The official release of the Voron Legacy 3d printer. You can find the BOM and an
 - [Voron Legacy Unofficial Manual by Poikilos](https://docs.google.com/document/d/1mR3VX70ok1uY0DY2WcfInHhRfALJT7SdbVQVug27Xh0/edit?usp=sharing)
   (WIP)
 
+
 ## Contributors
-- "jig for aligning the Y axis rods with the frame" [by deleted user] [2022-08-09](https://discord.com/channels/460117602945990666/791364306276450337/1006420060069441627)
-  - print 4 as cited on [Brief assembly guide](https://forum.vorondesign.com/threads/brief-assembly-guide.176/)
-  - y_axis_rod_alignment_jig_x4.stl (originally named legacy_tool.stl)
-- "X carriage for Stealthburner with CW2 for VL" by Ibbanez VL.029 [2022-08-24](https://discord.com/channels/460117602945990666/791364306276450337/1012131175113949204) as cited on [Brief assembly guide](https://forum.vorondesign.com/threads/brief-assembly-guide.176/)
-  - X-VL_left.stl
-  - X-VL_right.stl
+- [deleted user] via Discord
+  - "jig for aligning the Y axis rods with the frame" [2022-08-09](https://discord.com/channels/460117602945990666/791364306276450337/1006420060069441627)
+    - y_axis_rod_alignment_jig_x4.stl (originally named legacy_tool.stl)
+      - (4) are required as cited on [Brief assembly guide](https://forum.vorondesign.com/threads/brief-assembly-guide.176/)
+- Ibbanez VL.029 via Discord
+  - "X carriage for Stealthburner with CW2 for VL" [2022-08-24](https://discord.com/channels/460117602945990666/791364306276450337/1012131175113949204) as cited on [Brief assembly guide](https://forum.vorondesign.com/threads/brief-assembly-guide.176/)
+    - X-VL_left.stl
+    - X-VL_right.stl
+- Poikilos
+  - Alternate leadscrew block for anti-backlash POM nut (2 shank holes, spaced further apart).
+  - Alternate 206mm bed screw spacing parts (for reusing bed from A8 clone such as A3S)
+    - 206mm on y: STLs/Tools/alternate_bed_screw_y_spacing_206mm/z_component_alignment_jig-206mm_bed_screw_spacing_A3S.stl
+    - 206mm on x: STLs/Z Axis/Bed Carriages/alternate_bed_screw_x_spacing_206mm/
+  - Blend file with the above, blind joints, and taller to use prefabricated Voron 2.4 frame:
+    [Poikilos' Voron Legacy Folder](https://drive.google.com/drive/folders/1cWyBRrxuDkORSMTYZdLJZKc8Kg_imgok?usp=sharing) on Google Drive (too large for git except with LFS).
+    - [Generated BOM](https://drive.google.com/file/d/1eSlRInvPNuWncBucrcRtuzRmA0uxTkT_/view?usp=sharing), reusing a prefabricated Voron 2.4 frame size
+      - No 320 motors exist though, so use a regular stepper motor, flexible coupling (See unofficial sourcing guide below), and ~300mm lead screws such from A8 clone such as A3S.
+    - Unofficial sourcing guide by Poikilos: [https://docs.google.com/spreadsheets/d/1isZgUZrGUJIj4jxUcvnwxng9hJ9_i8DxyWfmX4hRLIU/edit?gid=2118759969#gid=2118759969](Building VORON Legacy but with V2.4 Frame and salvaged A8 clone)
+      - based on "VORON 1.6.2" at [sourcing guides](https://vorondesign.com/sourcing_guide?model=VL) (1.6.2 is same as Legacy according to nemgrea)
