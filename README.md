@@ -29,6 +29,8 @@ The official release of the Voron Legacy 3d printer. You can find the BOM and an
     - X-VL_right.stl
 - Poikilos
   - Alternate leadscrew block for anti-backlash POM nut (2 shank holes, spaced further apart).
+    - Fits ["Ender 3 V2 Z axis T8 POM Anti Backlash Spring Loaded Nut Elimination Gap Compatible with Voron 2.4 Ender3 pro 3D Printer 8mm Acme Threaded Rod"](https://www.amazon.com/dp/B088FPNVVF?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1) from POLISI3D Store on Amazon.
+      - Be aware, these are consumable (will eventually tear apart and lose the threads)! Regular brass ones are recommended in the sourcing guide.
   - Alternate 206mm bed screw spacing parts (for reusing bed from A8 clone such as A3S)
     - 206mm on y: STLs/Tools/alternate_bed_screw_y_spacing_206mm/z_component_alignment_jig-206mm_bed_screw_spacing_A3S.stl
     - 206mm on x: STLs/Z Axis/Bed Carriages/alternate_bed_screw_x_spacing_206mm/
