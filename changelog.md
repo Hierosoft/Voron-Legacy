@@ -4,16 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 2025-07-26
+(Poikilos)
+### Fixed
+- Rename misspelled files: (3) Z axis `*support*` files formerly `*suport*`.
+
 
 ## 2025-07-24
+(Poikilos)
 ### Added
 - y axis rod alignment tool [by deleted user on Discord]
 - "X carriage for Stealthburner with CW2 for VL" by Ibbanez VL.029 on Discord.
 
 
 ## 2025-07-05
-### Added
 (Poikilos)
+### Added
 - Added Google Drive link to Blend file (since blend file is over 100MB, so it cannot be uploaded to GitHub except with LFS).
   - Converted .step file to .gltf using [CAD Assistant](https://www.opencascade.com/products/cad-assistant/) (Generates good normals so less geometry is required, according to mrpraline on blender.stackexchange.com [Oct 18, 2020](https://blender.stackexchange.com/a/199076/12998)
   - Converted .gltf file to .blend file using Blender 3.6.19.
