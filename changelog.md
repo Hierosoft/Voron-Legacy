@@ -7,6 +7,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## 2025-07-26
 (Poikilos)
 ### Fixed
+- Named more parts in FreeCAD file (and Poikilos' blend file in Google Drive link):
+  `front_idler_*`, `bed_carriage_*`, `z_leadscrew_block_x2` `z_shaft_support_upper_*`, `*_drive_unit_*`, `z_shaft_support_lower_*_x2`, `z_motor_mount_*_x2*`, `bowden_adapter_*`, `[a]_bowden_cable_cover`, `blower_housing_rear`, `[a]_blower_housing_front`, `printhead_*_e3dv6`, `probe_retainer_bracket`, `[a]_belt_clip_x2`, `enclosure_cover`, `psu_stabilizer` (was misspelled "Stabalizer"), `xy_joint_*`, `y_bearing_retainer_front_x2`,
+  - Helps find the STL you need. Example: identifying parts in (unofficial) documentation visually rather than using a file search.
+- Suffix assemblies for parts above with **"_ASSEMBLED"** to avoid confusion on export where parts are fused into one mesh but must be printed separately (impossible to print if fused, but at least user is clued into that fact and knows to not export that. This is fixed in Poikilos' blend file.).
+- Parts with ".R" or rear/front in name do not have to be exported more than once (filename is part before dot).
+
+
+## 2025-07-26
+(Poikilos)
+### Fixed
 - Rename misspelled files: (3) Z axis `*support*` files formerly `*suport*`.
 
 
