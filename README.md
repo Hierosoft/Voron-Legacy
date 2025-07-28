@@ -17,6 +17,12 @@ The official release of the Voron Legacy 3d printer. You can find the BOM and an
 - [Voron Legacy Unofficial Manual by Poikilos](https://docs.google.com/document/d/1mR3VX70ok1uY0DY2WcfInHhRfALJT7SdbVQVug27Xh0/edit?usp=sharing)
   (WIP)
 
+### Known issues
+(Differences mentioned are from actual measurements of motors, and making belts centered on gearheads' teeth. Belts are in blend file in Poikilos' Voron Legacy folder on Google Drive)
+- (CAD folder) Make motor shaft of A & B motors 0.152 mm longer so they are 24mm from the screw surface like motors in the 1.6.2 BOM
+- Move A (right) gearhead (T20 pulley) down by 2.35 so it is 3.45 less than end of motor shaft
+- Move B (left) gearhead (T20 pulley) up by 0.10217 so it sticks out 1.25mm more than end of motor shaft
+
 
 ## Contributors
 - [deleted user] via Discord

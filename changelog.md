@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 2025-07-27
+(only to blend file in Poikilos' Voron Legacy Folder on Google Drive)
+### Added
+- Belts (blend file)
+### Fixed
+- Edit end of A & B motor shafts so they are 24mm from the screw surface like motors in the 1.6.2 BOM.
+- Move A (right) gearhead (T20 pulley) down by 2.35 (blend file) so it is out 3.45 less than end of motor shaft
+- Move B (left) gearhead (T20 pulley) up by 0.10217 (blend file) so it sticks out 1.25mm more than end of motor shaft
+- Move entire scene by -76.8922,-135.07,360.175 mm so top surfaces of bottom bars is at 0 on z axis and outer edge is at 0,0 on x-y plane.
+  - Then rotate 180 on world origin so that x and y move in the same direction as they would in firmware and slicer software.
+
 ## 2025-07-26
 (Poikilos)
 ### Fixed
