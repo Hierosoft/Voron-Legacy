@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+
+## 2025-07-27
+### Fixed
+- Named unnamed inductive_probe.
+
+
 ## 2025-07-27
 (only to blend file in Poikilos' Voron Legacy Folder on Google Drive)
 ### Added
@@ -14,6 +20,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Move B (left) gearhead (T20 pulley) up by 0.10217 (blend file) so it sticks out 1.25mm more than end of motor shaft
 - Move entire scene by -76.8922,-135.07,360.175 mm so top surfaces of bottom bars is at 0 on z axis and outer edge is at 0,0 on x-y plane.
   - Then rotate 180 on world origin so that x and y move in the same direction as they would in firmware and slicer software.
+
 
 ## 2025-07-26
 (Poikilos)

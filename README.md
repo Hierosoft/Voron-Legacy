@@ -25,6 +25,8 @@ The official release of the Voron Legacy 3d printer. You can find the BOM and an
 - Add (1) M3X40 socket head screw to each side of rear of X Carriage (2 total)
   - Add (2) threaded inserts for them.
   - 1.25mm of the threads are underutilized, so make socket head holes that much deeper.
+- Inductive Probe object is unnamed (Fixed in FreeCAD file).
+
 
 ## Contributors
 - [deleted user] via Discord
